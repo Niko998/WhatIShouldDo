@@ -20,3 +20,8 @@ void Tasks::wypisywanie()
 {
     cout << task << endl;
 }
+
+void Tasks::dopisywanie(string a)
+{
+    task=a;
+}
